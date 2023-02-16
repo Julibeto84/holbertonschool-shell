@@ -1,2 +1,2 @@
 #!/bin/bash
-echo -n "(Ôo)'"
+echo '\U+1F615'
