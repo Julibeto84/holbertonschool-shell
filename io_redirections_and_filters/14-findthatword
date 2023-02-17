@@ -1,2 +1,2 @@
 #!/bin/bash
-grep "root" /etc/passwd | tr '\n' ' '
+grep -z "root" /etc/passwd | xargs -0 printf "%s "
