@@ -1,2 +1,3 @@
 #!/bin/bash
-grep root /etc/passwd | tr '\n' ' '
+grep root /etc/passwd
+
